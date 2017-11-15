@@ -17,7 +17,7 @@ describe('Course Actions', () => {
                 course: course
             };
 
-            //actionTypes.js
+            //act
             const action = courseActions.createCourseSuccess(course);
 
             //assert
